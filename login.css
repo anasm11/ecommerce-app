@@ -1,5 +1,10 @@
+:root{
+    --bkg-color: #eeeeee;
+    --form-bkg-color: white;
+}
+
 body{
-    background-color: #eeeeee;
+    background-color: var(--bkg-color);
     height:90vh;
     display:flex;
     align-items:center;
@@ -7,7 +12,7 @@ body{
 }
 
 .form{
-    background-color: white;
+    background-color: var(--form-bkg-color);
     border-radius: 1rem;
     box-shadow:0 0 0.2rem 0rem;
     display:flex;
